@@ -1,0 +1,12 @@
+{
+  "name": "curso-manipulaci-n-de-arrays-en-javascript",
+  "version": "1.0.0",
+  "description": "Domina la manipulación de arrays en JavaScript para optimizar tu código. Aprende desde técnicas básicas como forEach y map hasta avanzadas como flatMap y reduce. Mejora la estructuración de datos en frontend y backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anthony Utrera",
+  "license": "ISC"
+}
