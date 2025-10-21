@@ -12,6 +12,8 @@
             {title: 'Hamburguesa', precio: 121},
             {title: 'Pizza', precio: 20},
         ];
+
+        // Usando forEach para iterar sobre el array de productos
         const app = document.getElementById('app');
         productos.forEach((producto) => {
             app.innerHTML += `<li>${producto.title} - ${producto.precio}</li>`;
