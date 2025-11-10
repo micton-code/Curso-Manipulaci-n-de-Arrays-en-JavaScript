@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="caja"></div>
+    <script>
+        const productos = [
+            {title: 'Hamburguesa', precio: 121},
+            {title: 'Pizza', precio: 20},
+        ];
+
+        // Usando forEach para iterar sobre el array de productos
+        const app = document.getElementById('caja');
+        
+        const lista = productos.map((producto) => {
+            return `<li>${producto.title} - ${producto.precio}</li>`;
+        });
+
+        app.innerHTML = lista.join('');
+    </script>
+</body>
+</html>
