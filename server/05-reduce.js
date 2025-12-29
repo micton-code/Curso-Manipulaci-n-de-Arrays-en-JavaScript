@@ -11,5 +11,6 @@ console.log('Suma con for:', sum);
 // Usando reduce
 const sumaReduce = numeros.reduce((sum, elemento) => sum + elemento, 0);
 // el primer argumento es la función de reducción(arrowfunction), El segundo argumento (0) es el valor inicial de sum
+//sum: acumulador, elemento: valor actual en cada iteración
 
 console.log('Suma con reduce:', sumaReduce);
